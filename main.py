@@ -33,7 +33,7 @@ db = pd.read_excel(
 new_data = pd.read_excel(
     path_new_data,
     engine='openpyxl',
-    sheet_name='final'
+    sheet_name='Final'
 )
 
 #%% Filter for needed columns, removes NaN and drops duplicates from id_unico column
